@@ -1,0 +1,24 @@
+name: Question
+description: Ask a question here
+title: "[QUES]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to ask a question!
+  - type: checkboxes
+    id: new-question
+    attributes:
+      value: Is this question already asked?
+      description: Please verify that this question has not already been asked.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: The actual question?
+      description: What question do you have about OriComp?
+    validations:
+      required: true

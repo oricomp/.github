@@ -1,0 +1,26 @@
+name: Feature Request
+description: Request a feature here
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out a feature request!
+  - type: checkboxes
+    id: new-feature
+    attributes:
+      value: Is this feature planned or requested?
+      description: Please verify that this feature is not already [planned](https://github.com/oricomp/planning) or requested.
+      options:
+        - label: I have searched the existing issues
+          required: true
+        - label: I have searched the planned features
+          required: true
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Description of the feature
+      description: What feature do you want and how should it work?
+    validations:
+      required: true
