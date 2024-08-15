@@ -10,7 +10,7 @@ body:
   - type: checkboxes
     id: new-question
     attributes:
-      value: Is this question already asked?
+      label: Is this question already asked?
       description: Please verify that this question has not already been asked.
       options:
         - label: I have searched the existing issues

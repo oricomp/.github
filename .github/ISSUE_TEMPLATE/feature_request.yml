@@ -10,7 +10,7 @@ body:
   - type: checkboxes
     id: new-feature
     attributes:
-      value: Is this feature planned or requested?
+      label: Is this feature planned or requested?
       description: Please verify that this feature is not already [planned](https://github.com/oricomp/planning) or requested.
       options:
         - label: I have searched the existing issues
