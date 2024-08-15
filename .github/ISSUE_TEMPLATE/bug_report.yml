@@ -10,7 +10,7 @@ body:
   - type: checkboxes
     id: new-bug
     attributes:
-      value: Is there an existing issue for this bug?
+      label: Is there an existing issue for this bug?
       description: Please verify that no issue already exists for this bug
       options:
         - label: I have searched the existing issues
