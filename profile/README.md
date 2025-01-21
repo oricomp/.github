@@ -18,17 +18,14 @@ it would be too large a project to create a new HDL.
 
 ## Getting Started
 
-It is recommended that potential users clone 
+It is recommended that potential users first look at
 [the oricomp repository](https://github.com/oricomp/oricomp). This repo
-submodules all relevant repositories in **OriComp**, and is meant to organize 
-the entire project into one repo. The tip of `main` will have the latest tested
-version of the project.
+has information about setting up the environment for **OriComp**.
 
 ## Documentation
 
 For documentation, check out [docs](https://github.com/oricomp/docs). 
 Documentation for every piece of hardware, software, etc. can be found in the
-linked repo. The documentation is generated and stored there with every tested
-change to [oricomp](https://github.com/oricomp/oricomp). If more up-to-date
-documentation is needed for whatever reason, check the `docs` folder in the
-repo corresponding to the hardware, software, etc.
+linked repo. The documentation is generated and stored there with every release.
+If more up-to-date documentation is needed for whatever reason, check the `docs`
+folder in the repo corresponding to the hardware, software, etc.
